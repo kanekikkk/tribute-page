@@ -1,0 +1,70 @@
+
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+    padding-top: .5rem;
+  }
+  #main{
+    background-color:#eee;
+    padding: 1rem;
+    margin: 1rem auto;
+  }
+  h2 {
+    font-size: 2.1rem;
+  }
+  h3{
+    font-size: 1.1rem;
+    padding: 1rem 0;
+  }
+  #title{
+    line-height: 1.5rem;
+    font-weight: 700;
+  }
+  #title, p, h3{
+    text-align: center;
+  }
+  #img-div{
+    background-color: white;
+  }
+  #image{
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    height: auto;
+  }
+  figure{
+    padding: 1.5rem 1rem;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+  }
+  figcaption{
+    text-align: center;
+    padding-bottom: 1rem; 
+  }
+  #tribute-info,#review{
+    width: min(70%, 700px);
+    margin: auto;
+  }
+  ul{
+    margin-inline: 0;
+  }
+  li{
+    padding: 0;
+    margin: .8rem 0;
+  }
+  #review{
+    margin: 3em auto;
+  }
+  @media (min-width: 400px){
+    h1{
+      font-size: 2rem;
+    }
+  }
+  @media (min-width: 700px){
+    h1{
+      font-size: 3rem;
+    }
+  }
