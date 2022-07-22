@@ -5,6 +5,7 @@
   body{
     font-family: sans-serif;
     padding-top: .5rem;
+   background: red;
   }
   #main{
     background-color:#eee;
